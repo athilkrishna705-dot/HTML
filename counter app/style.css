@@ -1,0 +1,31 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  margin-top: 50px;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  color: white;
+}
+
+.plus {
+  background-color: green;
+}
+
+.minus {
+  background-color: red;
+}
+
+.reset {
+  background-color: gray;
+}
+
+button:hover {
+  opacity: 0.8;
+}

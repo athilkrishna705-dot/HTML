@@ -1,0 +1,63 @@
+/* Body & font */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Hero Section */
+.hero {
+    background: url('./image/ChatGPT\ Image\ Dec\ 30\,\ 2025\,\ 10_01_31\ PM.png') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #000000;
+}
+
+.hero h1 {
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+/* Navbar styling */
+.navbar-brand img {
+    border-radius: 10px;
+    margin: -10px;
+}
+
+/* Heritage & Hotels Section */
+.card {
+    border-radius: 15px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Gallery Images */
+.gallery img {
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* Buttons */
+.btn-primary {
+    border-radius: 20px;
+    transition: transform 0.2s;
+}
+
+.btn-primary:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background-color: #007bff;
+}

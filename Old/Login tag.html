@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ body {
+  margin: 0;
+ background: #e8ecff;
+ font-family: Arial, sans-serif;
+ }
+.wrapper {
+    display: flex;
+}
+.topnav {
+    height: 100vh;
+    width: 180px;
+    padding: 30px;
+    background-color: #696969;
+}
+
+.topnav h5 {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.topnav a {
+    display: block;
+    color: white;
+    padding: 10px 0;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.topnav a:hover {
+    background-color: #ffffff;
+    color: rgb(122, 197, 255);
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.main-content h2 {
+ text-align: center;
+ margin-bottom: 30px;
+ color: #333;
+ font-weight: bold;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    width: 250px;
+    height: 80px;
+    background: white;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card p {
+    margin: 5px 0 0;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+}
+</style>
+</head>
+
+<body>
+
+<div class="wrapper">
+
+    <div class="topnav">
+        <h5>My Dashboard</h5>
+        <a href="#">Home</a>
+        <a href="#">Profile</a>
+        <a href="#">Settings</a>
+        <a href="#">Messages</a>
+        <a href="#">Notifications</a>
+        <a href="#">Logout</a>
+    </div>
+
+    <div class="main-content">
+        <h2>Welcome to the Dashboard</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>45005</h3>
+                <p>Total Order</p>
+            </div>
+
+            <div class="card">
+                <h3>4364</h3>
+                <p>Total Sale</p>
+            </div>
+
+            <div class="card">
+                <h3>454</h3>
+                <p>Total Customer</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

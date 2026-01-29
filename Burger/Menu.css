@@ -1,0 +1,49 @@
+ nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: black;
+
+        }
+
+        .font-style {
+            font-family: "Playwrite NO", cursive;
+            font-optical-sizing: auto;
+            font-weight: weight;
+            font-style: normal;
+            color: rgb(0, 0, 0);
+        }
+
+        .topnav {
+            display: flex;
+            background-color: black;
+        }
+
+        .topnav a {
+            list-style-type: none;
+            color: white;
+            gap: 50px;
+            text-decoration: none;
+            padding: 14px 16px;
+        }
+
+        .topnav a:hover {
+            color: orange;
+        }
+
+        .btn-order {
+            border-radius: 50px;
+            color: white;
+            background-color: orange;
+            height: 50px;
+            border: 2px solid white;
+        }
+
+        .btn-order:hover {
+            background-color: white;
+            color: black;
+            border: 2px solid orange;
+        }
+        .font-style{
+            color: white;
+        }

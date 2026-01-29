@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: gray;
+        }
+        .calc-body {
+            width: 275px;
+            margin: auto;
+            min-height: 400px;
+            box-shadow: 0 8px 50px -5px black;
+            background: #3A4655;
+            border-radius: 10px;
+        }
+        .calc-screen {
+            padding: 20px;
+        }
+
+        #calc-operation {
+            font-size: 20px;
+            text-align: right;
+            color: #727B86;
+        }
+
+        #calc-typed {
+            font-size: 40px;
+            text-align: right;
+            color: #fff;
+        }
+        .calc-button-row {
+            display: table;
+        }
+
+        .calc-button-row button {
+            width: 25%;
+            background: #425062;
+            color: #fff;
+            height: 65px;
+            font-size: 20px;
+            border-color: #3C4857;
+            border-style: solid;
+            border-radius: 5px;
+        }
+
+        .calc-button-row button.ac {
+            color: #ffffff;
+            background-color: rgb(112, 112, 250);
+        }
+
+        .calc-button-row button.opt {
+            color: #000000;
+            background-color: orange;
+        }
+
+
+        .calc-button-row button:hover {
+            background: rgb(162, 156, 156);
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center;">Calculator</h1>
+    <div class="calc-body">
+        <div class="calc-screen">
+            <div id="calc-operation">1234 + 567 + </div>
+            <div id="calc-typed">890</div>
+        </div>
+        <div class="calc-button-row">
+            <button class="ac">AC</button>
+            <button class="opt">+/-</button>
+            <button class="opt">%</button>
+            <button class="opt">/</button>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button class="opt">*</button>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button class="opt">-</button>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button class="opt">+</button>
+            <button>0</button>
+            <button>.</button>
+            <button><</button>
+            <button class="opt">=</button>
+        </div>
+    </div>
+</body>
+
+</html>

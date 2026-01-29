@@ -1,0 +1,139 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Navbar */
+.clinic-logo {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1a2c4d;
+}
+
+.navbar-nav .nav-link {
+    color: #4a5568;
+    font-weight: 500;
+    margin: 0 10px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #294fcc;
+}
+
+/* HERO ONE */
+.hero-one {
+    padding: 80px 0;
+    background: linear-gradient(to right, #f8fbff, #eef4ff);
+}
+
+.hero-one .hero-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #0d1b3f;
+}
+
+.hero-one .hero-title span {
+    color: #0d6efd;
+}
+
+.hero-one .hero-text {
+    color: #6c757d;
+    margin-top: 20px;
+    max-width: 500px;
+}
+
+.stats h3 {
+    color: #0d6efd;
+    font-weight: 700;
+}
+
+.stats p {
+    margin: 0;
+    color: #6c757d;
+}
+
+/* HERO TWO */
+.hero-two {
+    background: linear-gradient(to right, #ffffff 50%, #f1f6ff 50%);
+}
+
+.hero-two .hero-title {
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: #0a1f44;
+}
+
+.hero-two .hero-text {
+    color: #5a6a85;
+    line-height: 1.7;
+}
+
+.stat-number {
+    color: #1f5eff;
+    font-weight: 700;
+}
+
+.stat-label {
+    color: #6c7a92;
+}
+
+.image-wrapper {
+    position: relative;
+}
+
+.trust-badge {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #1f5eff;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.emergency-card {
+    position: absolute;
+    bottom: -25px;
+    left: 30px;
+    background: white;
+    padding: 15px 20px;
+    border-radius: 14px;
+    max-width: 260px;
+}
+
+.icon-circle {
+    width: 45px;
+    height: 45px;
+    background: #e8f0ff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1f5eff;
+    font-size: 20px;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #1f5eff;
+    border: none;
+    border-radius: 8px;
+}
+
+.btn-primary:hover {
+    background-color: #174bcc;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+    .hero-one .hero-title,
+    .hero-two .hero-title {
+        font-size: 2.2rem;
+    }
+
+    .emergency-card,
+    .trust-badge {
+        position: static;
+        margin-top: 15px;
+    }
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Basic Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #626060;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .login-box {
+            background: rgb(255, 255, 255);
+            padding: 25px;
+            width: 320px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .input-group {
+            margin-bottom: 15px;
+
+        }
+
+        label {
+            font-size: 14px;
+        }
+
+        input {
+            width: 93%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            background: #007bff;
+            color: white;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #0056b3;
+        }
+
+        .bottom-text {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="login-box">
+        <h2>Sign up</h2>
+
+        <div class="input-group">
+            <label>Username</label>
+            <input placeholder="Enter your Username">
+        </div>
+
+        <div class="input-group">
+            <label>Email</label>
+            <input placeholder="Enter Email">
+        </div>
+        <div class="input-group">
+            <label>Password</label>
+            <input placeholder="Enter Password">
+        </div>
+        <div class="input-group">
+            <label>Confirm Password</label>
+            <input placeholder="Re-enter your Password">
+        </div>
+
+        <button>Login</button>
+
+        <p class="bottom-text">Already have an account? <a href="Login">Login</a></p>
+    </div>
+
+</body>
+</html>

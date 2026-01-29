@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Details Form</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #eef5ff;
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+        }
+
+        fieldset {
+            width: 350px;
+            background: #f5faff;
+            border: 2px solid #11be22;
+            border-radius: 8px;
+            padding: 20px;
+        }
+
+        legend {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        label {
+            display: inline-block;
+            width: 120px;
+            font-size: 15px;
+            margin-bottom: 6px;
+        }
+
+        input[type="text"] {
+            width: 180px;
+            padding: 4px;
+        }
+
+        .submit-btn {
+            margin-top: 10px;
+            padding: 7px 15px;
+            background: #4a74ff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .submit-btn:hover {
+            background: #2f54d6;
+        }
+    </style>
+</head>
+
+<body>
+
+<form>
+  <fieldset>
+     <legend>Employee Details</legend>
+
+        <label>First name:</label>
+        <input type="text" name="firstname"><br><br>
+
+        <label>Last name:</label>
+        <input type="text" name="lastname"><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female<br><br>
+
+        <label>Employee ID:</label>
+        <input type="text" name="empid"><br><br>
+
+        <label>Designation:</label>
+        <input type="text" name="designation"><br><br>
+
+        <label>Phone Number:</label>
+        <input type="text" name="phonenumber"><br><br>
+
+        <input type="submit" value="Submit" class="submit-btn">
+
+  </fieldset>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,76 @@
+        body {
+            background-image: url(wp4056212-burger-wallpapers.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 30px;
+
+        }
+
+        .font-style {
+            font-family: "Playwrite NO", cursive;
+            font-optical-sizing: auto;
+            font-weight: weight;
+            font-style: normal;
+            color: white;
+        }
+
+        .topnav {
+            display: flex;
+        }
+
+        .topnav a {
+            list-style-type: none;
+            color: white;
+            gap: 50px;
+            text-decoration: none;
+            padding: 14px 16px;
+        }
+
+        .topnav a:hover {
+            color: orange;
+        }
+
+        .btn-order {
+            border-radius: 50px;
+            color: white;
+            background-color: orange;
+            height: 50px;
+            border: 2px solid white;
+        }
+
+        .btn-order:hover {
+            background-color: white;
+            color: black;
+            border: 2px solid orange;
+        }
+
+        .btn-order1 {
+            border-radius: 50px;
+            background-color: orange;
+            border: 2px solid white;
+        }
+
+        .btn-order1:hover {
+            background-color: white;
+            color: black;
+            border: 2px solid black;
+        }
+
+        .text-size {
+            padding: 40px;
+            margin-top: 80px;
+            color: white;
+        }
+
+        .font-family1 {
+            font-family: "Playwrite NO", cursive;
+            font-optical-sizing: auto;
+            font-weight: weight;
+            font-style: normal;
+        }

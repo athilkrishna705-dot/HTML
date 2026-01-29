@@ -1,0 +1,30 @@
+.l1{
+    background-color: black;
+    padding: 20px;
+    color: white;
+    list-style-type: none;
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 5px 5px 10px rgb(96, 92, 92);
+}
+.l1 li a{
+    text-decoration: none;
+}
+.hm{
+    display: flex;
+    gap: 50px;
+    margin-right: 500px;
+    border-radius: 80px;
+    list-style-type: none;
+    background-color: red;
+
+   
+}
+.hm li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.li2{
+    text-align: center;
+}

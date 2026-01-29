@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Margin vs Padding</title>
+    <style>
+        body{
+            background-color: rgb(120, 120, 120);
+        }
+        h1 {
+            text-align: center;
+        }
+
+
+        .top-frame {
+            border: 2px solid black;
+            padding: 20px;
+            width: 450px;
+            margin: 20px auto;
+        }
+
+        .box {
+            border: 2px solid black;
+            padding: 20px;
+            background: #22b3c3;
+        }
+
+      
+        .container {
+            border: 2px solid black;
+            padding: 20px;
+            width: 700px;
+            margin: 20px auto;
+            display: flex;
+            gap: 20px;
+        }
+
+
+        .left, .right {
+            flex: 1;
+            border: 2px solid black;
+            padding: 20px;
+            background: #ffef3a;
+        }
+
+        .right {
+            background: #d71c47;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Margin Vs Padding</h1>
+
+<div class="top-frame">
+    <div class="box">
+       Hello this is a box  <br>
+       Here we add some text  <br>
+       CSS makes styling easy  <br>
+       Margin adds outside space  <br>
+       Padding adds inside space
+    </div>
+</div>
+
+<div class="container">
+    <div class="left">
+        Welcome to the demo  <br>
+        Understanding margin  <br>
+        Understanding padding  <br>
+        CSS makes layout easy  <br>
+        Practice more CSS
+    </div>
+
+    <div class="right">
+        Learning CSS is fun <br>
+        Margin adds outside space  <br>
+        Padding adds inside space  <br>
+        Both help create layouts <br>
+        Keep practicing daily
+    </div>
+</div>
+
+</body>
+</html>
